@@ -19,8 +19,9 @@ class RareDiseaseScraper
   end
 
   def self.find_names(diseases_hash)
-    diseases_hash.keys
-    #write update SQL here
+    diseases_hash.keys.each do |disease_name|
+      Disease.create(:name => disease_name)
+    end
   end
 
   def self.find_urls(diseases_hash)
