@@ -8,6 +8,8 @@ class RareDiseaseScraper
 
   def self.scrape
     # find_diseases(PAGE1)
+    find_diseases(PAGE1)
+    find_diseases(PAGE2)
     find_diseases(PAGE3)
   end
 
@@ -21,6 +23,8 @@ class RareDiseaseScraper
   def self.find_names(diseases_hash)
     diseases_hash.keys.each do |disease_name|
       Disease.create(:name => disease_name)
+
+      ##for some reason, some of these disease names did not populate. Need to look into this.
     end
   end
 
