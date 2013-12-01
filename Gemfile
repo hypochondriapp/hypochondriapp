@@ -36,6 +36,10 @@ gem 'nokogiri'
 
 gem 'pry'
 
+gem 'sunspot_rails'
+gem 'sunspot_solr'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
