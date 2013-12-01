@@ -5,10 +5,32 @@
   </p>
 <% end %>
 
+<!-- Option 1 -->
+<% @search.hits.each do |hit| %>
+  <%= "Disease ##{hit.primary_key}: " %>
+      <% hit.highlights(:page_content).each do |highlight| %>
+        <% highlight.format do |word| %>
+          <strong><%= word %></strong><br>
+        <% end %>
+     <% end %>
+<% end %>
+<br>
+
+<!-- Option 2 -->
+<% @search.hits.each do |hit| %>
+  <%= "Disease ##{hit.primary_key}" %><br>
+      <% hit.highlights(:page_content).each do |highlight| %>
+        <%= "  " + highlight.format { |word| "*#{word}*" } %><br><br>
+     <% end %>
+  <% end %>
+
+
 <% @diseases.each do |disease| %>
   <h4><%= disease.name %></h4>
   <ul>
     <li><%= disease.url %></li>
     <li><%= disease.page_content %></li>
   </ul>
-  <% end %>
+<% end %>
+
+

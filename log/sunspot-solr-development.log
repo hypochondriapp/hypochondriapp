@@ -447,3 +447,223 @@ Nov 30, 2013 10:54:45 PM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=sore+throat&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=2 
 Nov 30, 2013 10:54:52 PM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=adult&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=18 status=0 QTime=1 
+Nov 30, 2013 10:59:58 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=higher+develop&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=11 status=0 QTime=3 
+Nov 30, 2013 11:00:13 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=higher+develop+arthiritis&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=2 
+Nov 30, 2013 11:00:16 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=higher+develo&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=2 
+Nov 30, 2013 11:00:18 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=higher+develo&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Nov 30, 2013 11:00:20 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=higher+develoa&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Nov 30, 2013 11:00:22 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=higher+develop&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=11 status=0 QTime=2 
+Nov 30, 2013 11:00:32 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=rain+umbrellas+precautionary&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=2 
+Nov 30, 2013 11:00:39 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=persist&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=1 
+Nov 30, 2013 11:00:48 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=urticar&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Nov 30, 2013 11:00:51 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=urticaria&qf=page_content_text&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=2 
+Nov 30, 2013 11:02:29 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@b5c44d6 realtime
+Nov 30, 2013 11:02:29 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Disease (-1453190597614501888)} 0 11
+Nov 30, 2013 11:02:29 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 1 (1453190597709922304), Disease 2 (1453190597710970880), Disease 3 (1453190597712019456), Disease 4 (1453190597713068032), Disease 5 (1453190597714116608), Disease 6 (1453190597715165184), Disease 7 (1453190597716213760), Disease 8 (1453190597717262336), Disease 9 (1453190597725650944), Disease 10 (1453190597728796672), ... (50 adds)]} 0 83
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 51 (1453190597932220416), Disease 52 (1453190597936414720), Disease 53 (1453190597937463296), Disease 54 (1453190597941657600), Disease 55 (1453190597944803328), Disease 56 (1453190597945851904), Disease 57 (1453190597946900480), Disease 58 (1453190597947949056), Disease 59 (1453190597952143360), Disease 60 (1453190597954240512), ... (50 adds)]} 0 117
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 101 (1453190598119915520), Disease 102 (1453190598122012672), Disease 103 (1453190598127255552), Disease 104 (1453190598127255553), Disease 105 (1453190598128304128), Disease 106 (1453190598128304129), Disease 107 (1453190598128304130), Disease 108 (1453190598129352704), Disease 109 (1453190598129352705), Disease 110 (1453190598130401280), ... (50 adds)]} 0 27
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 151 (1453190598273007616), Disease 152 (1453190598273007617), Disease 153 (1453190598274056192), Disease 154 (1453190598274056193), Disease 155 (1453190598274056194), Disease 156 (1453190598274056195), Disease 157 (1453190598275104768), Disease 158 (1453190598275104769), Disease 159 (1453190598276153344), Disease 160 (1453190598276153345), ... (50 adds)]} 0 18
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 201 (1453190598310756352), Disease 202 (1453190598311804928), Disease 203 (1453190598311804929), Disease 204 (1453190598311804930), Disease 205 (1453190598312853504), Disease 206 (1453190598312853505), Disease 207 (1453190598312853506), Disease 208 (1453190598313902080), Disease 209 (1453190598313902081), Disease 210 (1453190598313902082), ... (50 adds)]} 0 20
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 251 (1453190598551928832), Disease 252 (1453190598551928833), Disease 253 (1453190598552977408), Disease 254 (1453190598552977409), Disease 255 (1453190598552977410), Disease 256 (1453190598554025984), Disease 257 (1453190598554025985), Disease 258 (1453190598554025986), Disease 259 (1453190598555074560), Disease 260 (1453190598555074561), ... (50 adds)]} 0 21
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 301 (1453190598605406208), Disease 302 (1453190598605406209), Disease 303 (1453190598605406210), Disease 304 (1453190598606454784), Disease 305 (1453190598606454785), Disease 306 (1453190598606454786), Disease 307 (1453190598607503360), Disease 308 (1453190598608551936), Disease 309 (1453190598608551937), Disease 310 (1453190598608551938), ... (50 adds)]} 0 20
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 351 (1453190598654689280), Disease 352 (1453190598654689281), Disease 353 (1453190598654689282), Disease 354 (1453190598655737856), Disease 355 (1453190598655737857), Disease 356 (1453190598655737858), Disease 357 (1453190598656786432), Disease 358 (1453190598656786433), Disease 359 (1453190598656786434), Disease 360 (1453190598657835008), ... (50 adds)]} 0 17
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 401 (1453190598690340864), Disease 402 (1453190598690340865), Disease 403 (1453190598691389440), Disease 404 (1453190598692438016), Disease 405 (1453190598692438017), Disease 406 (1453190598693486592), Disease 407 (1453190598693486593), Disease 408 (1453190598693486594), Disease 409 (1453190598694535168), Disease 410 (1453190598694535169), ... (50 adds)]} 0 20
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 451 (1453190598730186752), Disease 452 (1453190598730186753), Disease 453 (1453190598731235328), Disease 454 (1453190598731235329), Disease 455 (1453190598731235330), Disease 456 (1453190598732283904), Disease 457 (1453190598732283905), Disease 458 (1453190598732283906), Disease 459 (1453190598733332480), Disease 460 (1453190598733332481), ... (50 adds)]} 0 18
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 501 (1453190598774226944), Disease 502 (1453190598775275520), Disease 503 (1453190598775275521), Disease 504 (1453190598775275522), Disease 505 (1453190598776324096), Disease 506 (1453190598776324097), Disease 507 (1453190598776324098), Disease 508 (1453190598777372672), Disease 509 (1453190598777372673), Disease 510 (1453190598777372674), ... (50 adds)]} 0 19
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 551 (1453190598813024256), Disease 552 (1453190598814072832), Disease 553 (1453190598814072833), Disease 554 (1453190598814072834), Disease 555 (1453190598814072835), Disease 556 (1453190598815121408), Disease 557 (1453190598815121409), Disease 558 (1453190598815121410), Disease 559 (1453190598816169984), Disease 560 (1453190598816169985), ... (50 adds)]} 0 17
+Nov 30, 2013 11:02:30 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Nov 30, 2013 11:02:31 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1ad8e902; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3,filenames=[_1.fdx, _1_Lucene41_0.pos, _1.nvm, _1_Lucene41_0.doc, _1.fdt, _1.si, _1_Lucene41_0.tim, _1.nvd, _1_Lucene41_0.tip, _1.fnm, segments_3]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1ad8e902; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4,filenames=[_2.si, _2_Lucene41_0.pos, _2_Lucene41_0.tim, _2.nvm, _2.nvd, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tip, _2.fdx, _2.fnm, segments_4]
+Nov 30, 2013 11:02:31 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 4[_2.si, _2_Lucene41_0.pos, _2_Lucene41_0.tim, _2.nvm, _2.nvd, _2.fdt, _2_Lucene41_0.doc, _2_Lucene41_0.tip, _2.fdx, _2.fnm, segments_4]
+Nov 30, 2013 11:02:31 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@6b6a3075 main
+Nov 30, 2013 11:02:31 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@6b6a3075 main{StandardDirectoryReader(segments_4:11:nrt _2(4.2):C600)}
+Nov 30, 2013 11:02:31 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Nov 30, 2013 11:02:31 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {commit=} 0 165
+Nov 30, 2013 11:02:50 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=2 
+Nov 30, 2013 11:03:54 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:03:55 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:03:56 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:04:55 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:04:58 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:04:59 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:05:00 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=0 
+Nov 30, 2013 11:06:04 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:06:07 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:06:08 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:06:12 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=stuffy+nose&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=2 
+Nov 30, 2013 11:06:14 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=stuffy&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Nov 30, 2013 11:06:19 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=diahrrea&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Nov 30, 2013 11:06:22 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=nausea&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=3 status=0 QTime=1 
+Nov 30, 2013 11:07:22 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=nausea&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=3 status=0 QTime=1 
+Nov 30, 2013 11:07:24 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=nausea&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=3 status=0 QTime=1 
+Nov 30, 2013 11:07:27 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:07:28 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:07:30 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=1 
+Nov 30, 2013 11:07:34 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=2 
+Nov 30, 2013 11:07:37 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Nov 30, 2013 11:07:40 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=0 
+Nov 30, 2013 11:08:02 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+Nov 30, 2013 11:08:04 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=0 
+Nov 30, 2013 11:09:01 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Nov 30, 2013 11:09:03 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=0 
+Nov 30, 2013 11:09:09 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+Nov 30, 2013 11:09:12 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Nov 30, 2013 11:09:15 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+Nov 30, 2013 11:09:18 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+Nov 30, 2013 11:09:20 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+Nov 30, 2013 11:09:23 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Nov 30, 2013 11:09:25 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+Nov 30, 2013 11:09:29 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=0 
+Nov 30, 2013 11:09:32 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&wt=ruby&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=0 
+Nov 30, 2013 11:09:34 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Nov 30, 2013 11:09:43 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Nov 30, 2013 11:09:59 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Nov 30, 2013 11:10:01 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Nov 30, 2013 11:10:02 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Nov 30, 2013 11:10:08 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Nov 30, 2013 11:10:11 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Nov 30, 2013 11:10:46 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Nov 30, 2013 11:10:48 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=53 
+Nov 30, 2013 11:11:00 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=12 
+Nov 30, 2013 11:11:06 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=17 
+Nov 30, 2013 11:11:30 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:11:54 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:12:03 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=orthostatic+hypotension&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=10 
+Nov 30, 2013 11:12:05 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=orthostatic+hypotension&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:13:28 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=orthostatic+hypotension&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:18:15 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=orthostatic+hypotension&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=10 
+Nov 30, 2013 11:18:29 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=orthostatic+hypotension&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=17 
+Nov 30, 2013 11:19:31 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=orthostatic+hypotension&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:19:49 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salty&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Nov 30, 2013 11:20:03 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:23:08 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=10 
+Nov 30, 2013 11:23:21 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:24:21 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Nov 30, 2013 11:25:04 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=11 
+Nov 30, 2013 11:25:15 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=86 
+Nov 30, 2013 11:25:42 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=124 
+Nov 30, 2013 11:25:53 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=headache&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=4 status=0 QTime=16 
+Nov 30, 2013 11:26:04 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=38 
+Nov 30, 2013 11:26:42 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=27 
+Nov 30, 2013 11:26:50 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=19 
+Nov 30, 2013 11:27:15 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=24 
+Nov 30, 2013 11:30:08 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=26 
+Nov 30, 2013 11:30:22 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=21 
+Nov 30, 2013 11:30:29 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=28 
+Nov 30, 2013 11:31:19 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=23 
+Nov 30, 2013 11:31:33 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=22 
+Nov 30, 2013 11:31:36 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=26 
+Nov 30, 2013 11:31:42 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=aggressive&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=6 status=0 QTime=22 
+Nov 30, 2013 11:31:47 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=poop&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Nov 30, 2013 11:31:49 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=salt&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=1 
+Nov 30, 2013 11:32:00 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=urine&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=15 status=0 QTime=36 
