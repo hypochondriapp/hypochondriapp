@@ -1,10 +1,11 @@
 class DiseaseController < ApplicationController
 
   def index
-    @search = Article.search do
+    @search = Disease.search do
       fulltext params[:search]
     end
-    @dieases = @search.results
+    @dieases = Disease.all[1..100]
+    raise
   end
 
 end

@@ -4,3 +4,11 @@
     <%= submit_tag "Search", :name => nil %>
   </p>
 <% end %>
+
+<% @diseases.each do |disease| %>
+  <h4><%= disease.name %></h4>
+  <ul>
+    <li><%= disease.url %></li>
+    <li><%= disease.page_content %></li>
+  <% end %>
+  <ul>
