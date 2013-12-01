@@ -6,31 +6,41 @@
 <% end %>
 
 <!-- Option 1 -->
-<% @search.hits.each do |hit| %>
-  <%= "Disease ##{hit.primary_key}: " %>
-      <% hit.highlights(:page_content).each do |highlight| %>
-        <% highlight.format do |word| %>
-          <strong><%= word %></strong><br>
-        <% end %>
-     <% end %>
-<% end %>
-<br>
 
-<!-- Option 2 -->
-<% @search.hits.each do |hit| %>
-  <%= "Disease ##{hit.primary_key}" %><br>
-      <% hit.highlights(:page_content).each do |highlight| %>
-        <%= "  " + highlight.format { |word| "*#{word}*" } %><br><br>
-     <% end %>
-  <% end %>
 
+zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:
+<% @diseases.first.name %>
+
+<%@disease_array = [] %>
 
 <% @diseases.each do |disease| %>
-  <h4><%= disease.name %></h4>
+  <h4><% @disease_array << disease.name %></h4>
   <ul>
-    <li><%= disease.url %></li>
-    <li><%= disease.page_content %></li>
+
+
+<!--     <li><%#= disease.url %></li> -->
+<!--     <li><%#= disease.page_content %></li> -->
   </ul>
 <% end %>
 
+<%= @disease_array.max_by(&:length) %>
 
+
+
+<%# @search.hits.each do |hit| %>
+  <%#= "Disease ##{hit.primary_key}: " %>
+      <%# hit.highlights(:page_content).each do |highlight| %>
+        <%# highlight.format do |word| %>
+          <!-- <strong><%#= word %></strong><br> -->
+        <%# end %>
+     <%# end %>
+<%# end %>
+<!-- <br>
+ -->
+<!-- Option 2 -->
+<%# @search.hits.each do |hit| %>
+  <%#= "Disease ##{hit.primary_key}" %><br>
+      <%# hit.highlights(:page_content).each do |highlight| %>
+        <%#= "  " + highlight.format { |word| "*#{word}*" } %><br><br>
+     <%# end %>
+  <%# end %>
