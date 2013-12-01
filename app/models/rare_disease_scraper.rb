@@ -26,14 +26,16 @@ class RareDiseaseScraper
   end
 
   def self.scrape_pages
-    Disease.all.each do |disease|
+    Disease.all[1..100].each do |disease|
       page = Nokogiri::HTML(open("http://en.wikipedia.org#{disease.url}"))
-      find_content(page, disease)
+      disease_info = find_content(page)
+      disease.page_content = disease_info
+      disease.save
     end
   end
 
   def self.find_content(page)
-    page.css('div#mw-content-text p')
+    page.css('p').text
   end
 
 end
