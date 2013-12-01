@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131128004650) do
+ActiveRecord::Schema.define(version: 20131130232350) do
 
   create_table "disease_symptoms", force: true do |t|
     t.integer  "disease_id"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20131128004650) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "url"
+    t.text     "page_content"
   end
 
   create_table "symptoms", force: true do |t|
