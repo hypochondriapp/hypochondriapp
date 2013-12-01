@@ -302,3 +302,52 @@ Nov 30, 2013 10:30:37 PM org.apache.solr.servlet.SolrDispatchFilter init
 INFO: user.dir=/usr/local/rvm/gems/ruby-2.0.0-p247/gems/sunspot_solr-2.1.0/solr
 Nov 30, 2013 10:30:37 PM org.apache.solr.servlet.SolrDispatchFilter init
 INFO: SolrDispatchFilter.init() done
+Nov 30, 2013 10:32:14 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1ad8e902; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+Nov 30, 2013 10:32:14 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1[segments_1]
+Nov 30, 2013 10:32:14 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@6434d75f realtime
+Nov 30, 2013 10:32:14 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {deleteByQuery=type:Disease (-1453188693071233024)} 0 678
+Nov 30, 2013 10:32:15 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 1 (1453188693818867712), Disease 2 (1453188693851373568), Disease 3 (1453188693887025152), Disease 4 (1453188693927919616), Disease 5 (1453188693939453952), Disease 6 (1453188693973008384), Disease 7 (1453188694052700160), Disease 8 (1453188694064234496), Disease 9 (1453188694081011712), Disease 10 (1453188694189015040), ... (50 adds)]} 0 1010
+Nov 30, 2013 10:32:15 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 51 (1453188695259611136), Disease 52 (1453188695263805440), Disease 53 (1453188695264854016), Disease 54 (1453188695269048320), Disease 55 (1453188695273242624), Disease 56 (1453188695274291200), Disease 57 (1453188695276388352), Disease 58 (1453188695278485504), Disease 59 (1453188695282679808), Disease 60 (1453188695284776960), ... (50 adds)]} 0 192
+Nov 30, 2013 10:32:15 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 101 (1453188695515463680), Disease 102 (1453188695517560832), Disease 103 (1453188695518609408), Disease 104 (1453188695519657984), Disease 105 (1453188695520706560), Disease 106 (1453188695521755136), Disease 107 (1453188695522803712), Disease 108 (1453188695523852288), Disease 109 (1453188695524900864), Disease 110 (1453188695525949440), ... (50 adds)]} 0 60
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 151 (1453188695674847232), Disease 152 (1453188695675895808), Disease 153 (1453188695676944384), Disease 154 (1453188695677992960), Disease 155 (1453188695679041536), Disease 156 (1453188695680090112), Disease 157 (1453188695681138688), Disease 158 (1453188695682187264), Disease 159 (1453188695684284416), Disease 160 (1453188695685332992), ... (50 adds)]} 0 54
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 201 (1453188695817453568), Disease 202 (1453188695818502144), Disease 203 (1453188695819550720), Disease 204 (1453188695820599296), Disease 205 (1453188695820599297), Disease 206 (1453188695821647872), Disease 207 (1453188695822696448), Disease 208 (1453188695824793600), Disease 209 (1453188695824793601), Disease 210 (1453188695825842176), ... (50 adds)]} 0 101
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 251 (1453188695985225728), Disease 252 (1453188695986274304), Disease 253 (1453188695987322880), Disease 254 (1453188695987322881), Disease 255 (1453188695988371456), Disease 256 (1453188695989420032), Disease 257 (1453188695990468608), Disease 258 (1453188695990468609), Disease 259 (1453188695991517184), Disease 260 (1453188695992565760), ... (50 adds)]} 0 42
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 301 (1453188696092180480), Disease 302 (1453188696093229056), Disease 303 (1453188696093229057), Disease 304 (1453188696094277632), Disease 305 (1453188696094277633), Disease 306 (1453188696095326208), Disease 307 (1453188696095326209), Disease 308 (1453188696096374784), Disease 309 (1453188696097423360), Disease 310 (1453188696097423361), ... (50 adds)]} 0 32
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 351 (1453188696146706432), Disease 352 (1453188696147755008), Disease 353 (1453188696147755009), Disease 354 (1453188696148803584), Disease 355 (1453188696148803585), Disease 356 (1453188696149852160), Disease 357 (1453188696149852161), Disease 358 (1453188696150900736), Disease 359 (1453188696150900737), Disease 360 (1453188696151949312), ... (50 adds)]} 0 25
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 401 (1453188696190746624), Disease 402 (1453188696191795200), Disease 403 (1453188696191795201), Disease 404 (1453188696192843776), Disease 405 (1453188696192843777), Disease 406 (1453188696193892352), Disease 407 (1453188696193892353), Disease 408 (1453188696194940928), Disease 409 (1453188696194940929), Disease 410 (1453188696195989504), ... (50 adds)]} 0 25
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 451 (1453188696235835392), Disease 452 (1453188696236883968), Disease 453 (1453188696237932544), Disease 454 (1453188696237932545), Disease 455 (1453188696238981120), Disease 456 (1453188696238981121), Disease 457 (1453188696240029696), Disease 458 (1453188696240029697), Disease 459 (1453188696241078272), Disease 460 (1453188696241078273), ... (50 adds)]} 0 48
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 501 (1453188696307138560), Disease 502 (1453188696308187136), Disease 503 (1453188696309235712), Disease 504 (1453188696309235713), Disease 505 (1453188696310284288), Disease 506 (1453188696310284289), Disease 507 (1453188696311332864), Disease 508 (1453188696311332865), Disease 509 (1453188696311332866), Disease 510 (1453188696312381440), ... (50 adds)]} 0 33
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {add=[Disease 551 (1453188696370053120), Disease 552 (1453188696371101696), Disease 553 (1453188696372150272), Disease 554 (1453188696373198848), Disease 555 (1453188696373198849), Disease 556 (1453188696373198850), Disease 557 (1453188696374247424), Disease 558 (1453188696375296000), Disease 559 (1453188696375296001), Disease 560 (1453188696376344576), ... (50 adds)]} 0 44
+Nov 30, 2013 10:32:16 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+Nov 30, 2013 10:32:17 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1ad8e902; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1,filenames=[segments_1]
+	commit{dir=NRTCachingDirectory(org.apache.lucene.store.NIOFSDirectory@/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/development/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1ad8e902; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2,filenames=[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+Nov 30, 2013 10:32:17 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 2[_0.fnm, _0_Lucene41_0.doc, _0_Lucene41_0.pos, _0.nvd, segments_2, _0.fdx, _0.si, _0.nvm, _0_Lucene41_0.tim, _0.fdt, _0_Lucene41_0.tip]
+Nov 30, 2013 10:32:17 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@2d7892d5 main
+Nov 30, 2013 10:32:17 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@2d7892d5 main{StandardDirectoryReader(segments_2:3:nrt _0(4.2):C600)}
+Nov 30, 2013 10:32:17 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Nov 30, 2013 10:32:17 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: [development] webapp=/solr path=/update params={wt=ruby} {commit=} 0 888

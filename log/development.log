@@ -15815,3 +15815,54 @@ Migrating to AddPageContentToDiseases (20131130232350)
   [1m[35m (0.1ms)[0m  begin transaction
   [1m[36mSQL (0.7ms)[0m  [1mUPDATE "diseases" SET "page_content" = ?, "updated_at" = ? WHERE "diseases"."id" = 101[0m  [["page_content", "Chromosome 5q deletion syndrome (chromosome 5q monosomy, 5q- syndrome) is a rare disorder caused by loss of part of the long arm (q arm, band 5q31.1) of human chromosome 5.It should not be confused with \"partial trisomy 5q\", though both conditions have been observed in the same family.[1]This should not be confused with cri du chat (5p deletion) syndrome which is a deletion of the short arm of the 5th chromosome.The 5q-syndrome is characterized by macrocytic anemia often thrombocytosis, erythroblastopenia, megakaryocyte hyperplasia with nuclear hypolobation and an isolated interstitial deletion of chromosome 5. The 5q- syndrome is found predominantly in females of advanced age.An association with RPS14 has been identified.[2]Deletion of the miR-145 and miR-146 loci has been associated with elevated platelet count and megakaryocytic dysplasia associated with the 5q- syndrome.[3]This syndrome affects bone marrow cells causing treatment-resistant anemia and myelodysplastic syndromes that may lead to acute myelogenous leukemia. Examination of the bone marrow shows characteristic changes in the megakaryocytes. They are more numerous than usual, small and mononuclear. There may be accompanying erythroid hypoplasia in the bone marrow.[4]Lenalidomide is a new agent that is showing promise in treating 5q- syndrome.[5] It is approved for a subset of cases.[6]Most patients have a stable clinical course but are often transfusion dependent.M: MYLcell/phys (coag, heme, immu, gran), csfsrbmg/mogr/tumr/hist, sysi/epon, btstdrug (B1/2/3+5+6), btst, trns"], ["updated_at", Sun, 01 Dec 2013 03:22:49 UTC +00:00]]
   [1m[35m (2.7ms)[0m  commit transaction
+  [1m[32mSOLR Request (869.8ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+  [1m[36mDisease Load (2.0ms)[0m  [1mSELECT "diseases".* FROM "diseases" ORDER BY "diseases"."id" ASC LIMIT 50[0m
+[2013-11-30 22:32:14 -0500] Start Indexing
+  [1m[32mSOLR Request (1018.6ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:15 -0500] Completed Indexing. Rows indexed 50. Rows/sec: 46.90757144492207 (Elapsed: 1.065926 sec.)
+  [1m[35mDisease Load (223.5ms)[0m  SELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 50) ORDER BY "diseases"."id" ASC LIMIT 50
+[2013-11-30 22:32:15 -0500] Start Indexing
+  [1m[32mSOLR Request (199.7ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:15 -0500] Completed Indexing. Rows indexed 100. Rows/sec: 152.7571131349731 (Elapsed: 0.327317 sec.)
+  [1m[36mDisease Load (0.6ms)[0m  [1mSELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 100) ORDER BY "diseases"."id" ASC LIMIT 50[0m
+[2013-11-30 22:32:15 -0500] Start Indexing
+  [1m[32mSOLR Request (148.3ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:15 -0500] Completed Indexing. Rows indexed 150. Rows/sec: 290.5034424657932 (Elapsed: 0.172115 sec.)
+  [1m[35mDisease Load (0.5ms)[0m  SELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 150) ORDER BY "diseases"."id" ASC LIMIT 50
+[2013-11-30 22:32:15 -0500] Start Indexing
+  [1m[32mSOLR Request (114.7ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 200. Rows/sec: 391.80654160201857 (Elapsed: 0.127614 sec.)
+  [1m[36mDisease Load (0.6ms)[0m  [1mSELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 200) ORDER BY "diseases"."id" ASC LIMIT 50[0m
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (144.6ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 250. Rows/sec: 308.0752689497098 (Elapsed: 0.162298 sec.)
+  [1m[35mDisease Load (0.6ms)[0m  SELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 250) ORDER BY "diseases"."id" ASC LIMIT 50
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (69.6ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 300. Rows/sec: 600.8098917340575 (Elapsed: 0.083221 sec.)
+  [1m[36mDisease Load (0.6ms)[0m  [1mSELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 300) ORDER BY "diseases"."id" ASC LIMIT 50[0m
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (37.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 350. Rows/sec: 858.487002506782 (Elapsed: 0.058242 sec.)
+  [1m[35mDisease Load (0.5ms)[0m  SELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 350) ORDER BY "diseases"."id" ASC LIMIT 50
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (28.4ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 400. Rows/sec: 1239.4645513138323 (Elapsed: 0.04034 sec.)
+  [1m[36mDisease Load (0.6ms)[0m  [1mSELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 400) ORDER BY "diseases"."id" ASC LIMIT 50[0m
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (28.8ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 450. Rows/sec: 1280.3113717256037 (Elapsed: 0.039053 sec.)
+  [1m[35mDisease Load (0.6ms)[0m  SELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 450) ORDER BY "diseases"."id" ASC LIMIT 50
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (52.3ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 500. Rows/sec: 787.2775940796726 (Elapsed: 0.06351 sec.)
+  [1m[36mDisease Load (0.5ms)[0m  [1mSELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 500) ORDER BY "diseases"."id" ASC LIMIT 50[0m
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (39.1ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 550. Rows/sec: 967.305088024763 (Elapsed: 0.05169 sec.)
+  [1m[35mDisease Load (1.9ms)[0m  SELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 550) ORDER BY "diseases"."id" ASC LIMIT 50
+[2013-11-30 22:32:16 -0500] Start Indexing
+  [1m[32mSOLR Request (50.2ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+[2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 600. Rows/sec: 772.021925422682 (Elapsed: 0.064765 sec.)
+  [1m[36mDisease Load (0.5ms)[0m  [1mSELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 600) ORDER BY "diseases"."id" ASC LIMIT 50[0m
+  [1m[32mSOLR Request (892.6ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
