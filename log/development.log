@@ -15866,3 +15866,31 @@ Migrating to AddPageContentToDiseases (20131130232350)
 [2013-11-30 22:32:16 -0500] Completed Indexing. Rows indexed 600. Rows/sec: 772.021925422682 (Elapsed: 0.064765 sec.)
   [1m[36mDisease Load (0.5ms)[0m  [1mSELECT "diseases".* FROM "diseases" WHERE ("diseases"."id" > 600) ORDER BY "diseases"."id" ASC LIMIT 50[0m
   [1m[32mSOLR Request (892.6ms)[0m  [ path=[1m[1mupdate[0m parameters={} ]
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-30 22:36:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DiseaseController#index as HTML
+  Rendered disease/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1951ms (Views: 1876.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-30 22:36:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-30 22:36:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-30 22:36:15 -0500
+
+
+Started GET "/assets/disease.js?body=1" for 127.0.0.1 at 2013-11-30 22:36:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-30 22:36:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-30 22:36:16 -0500
+
+
+Started GET "/assets/disease.css?body=1" for 127.0.0.1 at 2013-11-30 22:36:16 -0500
