@@ -9,4 +9,26 @@ class Symptom < ActiveRecord::Base
     end
   end
 
+  def self.set_actives
+    Symptom.all.each do |symptom|
+      @search = Disease.search do
+        fulltext "\"#{symptom.name}\"" do
+          minimum_match 1
+        end
+      end
+
+      if @search.results.size > 0
+        symptom.active = true
+      else
+        symptom.active = false
+      end
+
+      symptom.save
+    end
+  end
+
+  def self.active
+    Symptom.where(:active => true)
+  end
+
 end
