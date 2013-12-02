@@ -8,42 +8,34 @@
 <!-- Option 1 -->
 
 
-zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:
-<%# @diseases.first.name %>
-
-<%@disease_array = [] %>
-
-<% @diseases.map(&:name) %>
-  <h4><% @disease_array << disease.name %></h4>
-  <ul>
+zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
+<%= @diseases[0..2].collect(&:name).max_by(&:length) %><br><br>
 
 
-<!--     <li><%#= disease.url %></li> -->
-<!--     <li><%#= disease.page_content %></li> -->
-  </ul>
+Disease Count: <%= @diseases.size %><br><br>
+
+
+
+<%= @diseases.map(&:name) %>
+
+
+
+
+
+<% @search.hits.each do |hit| %>
+  <%= "Disease ##{hit.primary_key}: " %>
+      <% hit.highlights(:page_content).each do |highlight| %>
+        <% highlight.format do |word| %>
+          <strong><%= word %></strong><br>
+        <% end %>
+     <% end %>
 <% end %>
-
-<%= @disease_array.max_by(&:length) %><br><br><br><br>
-
-Other Possible diseases:<br>
-<%= @disease_array %>
-
-
-
-<%# @search.hits.each do |hit| %>
-  <%#= "Disease ##{hit.primary_key}: " %>
-      <%# hit.highlights(:page_content).each do |highlight| %>
-        <%# highlight.format do |word| %>
-          <!-- <strong><%#= word %></strong><br> -->
-        <%# end %>
-     <%# end %>
-<%# end %>
 <!-- <br>
  -->
 <!-- Option 2 -->
-<%# @search.hits.each do |hit| %>
-  <%#= "Disease ##{hit.primary_key}" %><br>
-      <%# hit.highlights(:page_content).each do |highlight| %>
-        <%#= "  " + highlight.format { |word| "*#{word}*" } %><br><br>
-     <%# end %>
-  <%# end %>
+<% @search.hits.each do |hit| %>
+  <%= "Disease ##{hit.primary_key}" %><br>
+      <% hit.highlights(:page_content).each do |highlight| %>
+        <%= "  " + highlight.format { |word| "*#{word}*" } %><br><br>
+     <% end %>
+  <% end %>

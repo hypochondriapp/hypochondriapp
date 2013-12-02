@@ -1,346 +1,564 @@
-Dec 2, 2013 9:45:22 AM org.apache.solr.servlet.SolrDispatchFilter init
+Dec 2, 2013 10:51:47 AM org.apache.solr.servlet.SolrDispatchFilter init
 INFO: SolrDispatchFilter.init()
-Dec 2, 2013 9:45:22 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
+Dec 2, 2013 10:51:47 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
 INFO: JNDI not configured for solr (NoInitialContextEx)
-Dec 2, 2013 9:45:22 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
-INFO: using system property solr.solr.home: /Users/Emily/Development/code/hypochondriapp/solr
-Dec 2, 2013 9:45:22 AM org.apache.solr.core.CoreContainer$Initializer initialize
-INFO: looking for solr.xml: /Users/Emily/Development/code/hypochondriapp/solr/solr.xml
-Dec 2, 2013 9:45:22 AM org.apache.solr.core.CoreContainer <init>
-INFO: New CoreContainer 47309363
-Dec 2, 2013 9:45:22 AM org.apache.solr.core.CoreContainer load
-INFO: Loading CoreContainer using Solr Home: '/Users/Emily/Development/code/hypochondriapp/solr/'
-Dec 2, 2013 9:45:22 AM org.apache.solr.core.SolrResourceLoader <init>
-INFO: new SolrResourceLoader for directory: '/Users/Emily/Development/code/hypochondriapp/solr/'
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:47 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr
+Dec 2, 2013 10:51:47 AM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/solr.xml
+Dec 2, 2013 10:51:47 AM org.apache.solr.core.CoreContainer <init>
+INFO: New CoreContainer 394963776
+Dec 2, 2013 10:51:47 AM org.apache.solr.core.CoreContainer load
+INFO: Loading CoreContainer using Solr Home: '/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/'
+Dec 2, 2013 10:51:47 AM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/'
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting socketTimeout to: 0
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting urlScheme to: http://
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting connTimeout to: 0
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting maxConnectionsPerHost to: 20
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting corePoolSize to: 0
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting maximumPoolSize to: 2147483647
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting maxThreadIdleTime to: 5
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting sizeOfQueue to: -1
-Dec 2, 2013 9:45:23 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+Dec 2, 2013 10:51:48 AM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
 INFO: Setting fairnessPolicy to: false
-Dec 2, 2013 9:45:23 AM org.apache.solr.client.solrj.impl.HttpClientUtil createClient
+Dec 2, 2013 10:51:48 AM org.apache.solr.client.solrj.impl.HttpClientUtil createClient
 INFO: Creating new http client, config:maxConnectionsPerHost=20&maxConnections=10000&socketTimeout=0&connTimeout=0&retry=false
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.CoreContainer load
+Dec 2, 2013 10:51:48 AM org.apache.solr.core.CoreContainer load
 INFO: Registering Log Listener
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.CoreContainer create
-INFO: Creating SolrCore 'default' using instanceDir: /Users/Emily/Development/code/hypochondriapp/solr/.
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrResourceLoader <init>
-INFO: new SolrResourceLoader for directory: '/Users/Emily/Development/code/hypochondriapp/solr/./'
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.CoreContainer create
-INFO: Creating SolrCore 'development' using instanceDir: /Users/Emily/Development/code/hypochondriapp/solr/.
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrResourceLoader <init>
-INFO: new SolrResourceLoader for directory: '/Users/Emily/Development/code/hypochondriapp/solr/./'
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.CoreContainer create
-INFO: Creating SolrCore 'test' using instanceDir: /Users/Emily/Development/code/hypochondriapp/solr/.
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrResourceLoader <init>
-INFO: new SolrResourceLoader for directory: '/Users/Emily/Development/code/hypochondriapp/solr/./'
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrConfig <init>
+Dec 2, 2013 10:51:48 AM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'default' using instanceDir: /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/.
+Dec 2, 2013 10:51:48 AM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./'
+Dec 2, 2013 10:51:48 AM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'development' using instanceDir: /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/.
+Dec 2, 2013 10:51:48 AM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./'
+Dec 2, 2013 10:51:48 AM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore 'test' using instanceDir: /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/.
+Dec 2, 2013 10:51:48 AM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./'
+Dec 2, 2013 10:51:49 AM org.apache.solr.core.SolrConfig <init>
 INFO: Using Lucene MatchVersion: LUCENE_41
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrConfig <init>
+Dec 2, 2013 10:51:49 AM org.apache.solr.core.SolrConfig <init>
 INFO: Using Lucene MatchVersion: LUCENE_41
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrConfig <init>
+Dec 2, 2013 10:51:49 AM org.apache.solr.core.SolrConfig <init>
 INFO: Using Lucene MatchVersion: LUCENE_41
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrConfig <init>
+Dec 2, 2013 10:51:49 AM org.apache.solr.core.SolrConfig <init>
 INFO: Loaded SolrConfig: solrconfig.xml
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrConfig <init>
+Dec 2, 2013 10:51:49 AM org.apache.solr.core.SolrConfig <init>
 INFO: Loaded SolrConfig: solrconfig.xml
-Dec 2, 2013 9:45:23 AM org.apache.solr.core.SolrConfig <init>
+Dec 2, 2013 10:51:49 AM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Dec 2, 2013 10:51:49 AM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Dec 2, 2013 10:51:49 AM org.apache.solr.core.SolrConfig <init>
 INFO: Loaded SolrConfig: solrconfig.xml
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:49 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: Reading Solr Schema
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
-INFO: Reading Solr Schema
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
-INFO: Reading Solr Schema
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:49 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: Schema name=sunspot
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:49 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: Schema name=sunspot
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:49 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: Schema name=sunspot
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: default search field in schema is text
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: default search field in schema is text
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
-INFO: query parser default operator is AND
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
-INFO: query parser default operator is AND
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
-INFO: unique key field: id
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
-INFO: unique key field: id
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore <init>
-INFO: [development] Opening new SolrCore at /Users/Emily/Development/code/hypochondriapp/solr/./, dataDir=/Users/Emily/Development/code/hypochondriapp/solr/./development/data/
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore <init>
-INFO: JMX monitoring not detected for core: development
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore <init>
-INFO: [default] Opening new SolrCore at /Users/Emily/Development/code/hypochondriapp/solr/./, dataDir=/Users/Emily/Development/code/hypochondriapp/solr/./default/data/
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore <init>
-INFO: JMX monitoring not detected for core: default
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore initDirectoryFactory
-INFO: solr.NRTCachingDirectoryFactory
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: default search field in schema is text
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore initDirectoryFactory
-INFO: solr.NRTCachingDirectoryFactory
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: query parser default operator is AND
-Dec 2, 2013 9:45:24 AM org.apache.solr.schema.IndexSchema readSchema
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
 INFO: unique key field: id
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore <init>
-INFO: [test] Opening new SolrCore at /Users/Emily/Development/code/hypochondriapp/solr/./, dataDir=/Users/Emily/Development/code/hypochondriapp/solr/./test/data/
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore <init>
+Dec 2, 2013 10:51:50 AM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: id
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore <init>
+INFO: [test] Opening new SolrCore at /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./, dataDir=/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./test/data/
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore <init>
 INFO: JMX monitoring not detected for core: test
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore initDirectoryFactory
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore <init>
+INFO: [development] Opening new SolrCore at /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./, dataDir=/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./development/data/
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: development
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore <init>
+INFO: [default] Opening new SolrCore at /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./, dataDir=/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./default/data/
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore <init>
+INFO: JMX monitoring not detected for core: default
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore initDirectoryFactory
 INFO: solr.NRTCachingDirectoryFactory
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CachingDirectoryFactory get
-INFO: return new directory for /Users/Emily/Development/code/hypochondriapp/solr/./default/data forceNew: false
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CachingDirectoryFactory get
-INFO: return new directory for /Users/Emily/Development/code/hypochondriapp/solr/./development/data forceNew: false
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore getNewIndexDir
-INFO: New index directory detected: old=null new=/Users/Emily/Development/code/hypochondriapp/solr/./development/data/index/
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CachingDirectoryFactory get
-INFO: return new directory for /Users/Emily/Development/code/hypochondriapp/solr/./test/data forceNew: false
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore getNewIndexDir
-INFO: New index directory detected: old=null new=/Users/Emily/Development/code/hypochondriapp/solr/./test/data/index/
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore getNewIndexDir
-INFO: New index directory detected: old=null new=/Users/Emily/Development/code/hypochondriapp/solr/./default/data/index/
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CachingDirectoryFactory get
-INFO: return new directory for /Users/Emily/Development/code/hypochondriapp/solr/./test/data/index forceNew: false
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CachingDirectoryFactory get
-INFO: return new directory for /Users/Emily/Development/code/hypochondriapp/solr/./default/data/index forceNew: false
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CachingDirectoryFactory get
-INFO: return new directory for /Users/Emily/Development/code/hypochondriapp/solr/./development/data/index forceNew: false
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore initDirectoryFactory
+INFO: solr.NRTCachingDirectoryFactory
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./test/data forceNew: false
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./test/data/index/
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./test/data/index forceNew: false
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./development/data forceNew: false
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./development/data/index/
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./development/data/index forceNew: false
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./default/data forceNew: false
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore getNewIndexDir
+INFO: New index directory detected: old=null new=/Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./default/data/index/
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CachingDirectoryFactory get
+INFO: return new directory for /Users/GregEng/Development/code/flatiron/projects-rails/hypochondriapp/solr/./default/data/index forceNew: false
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /select: solr.SearchHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /query: solr.SearchHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /get: solr.RealTimeGetHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /select: solr.SearchHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /query: solr.SearchHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /get: solr.RealTimeGetHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update: solr.UpdateRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update: solr.UpdateRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update/json: solr.JsonUpdateRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update/csv: solr.CSVRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /admin/ping: solr.PingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /select: solr.SearchHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /query: solr.SearchHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update/json: solr.JsonUpdateRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /debug/dump: solr.DumpRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update/csv: solr.CSVRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /get: solr.RealTimeGetHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update: solr.UpdateRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /admin/ping: solr.PingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update/json: solr.JsonUpdateRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /debug/dump: solr.DumpRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update/csv: solr.CSVRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /admin/ping: solr.PingRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /debug/dump: solr.DumpRequestHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.UpdateRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /replication: solr.ReplicationHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /replication: solr.ReplicationHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /replication: solr.ReplicationHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /mlt: solr.MoreLikeThisHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /mlt: solr.MoreLikeThisHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /mlt: solr.MoreLikeThisHandler
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /admin/: solr.admin.AdminHandlers
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /admin/: solr.admin.AdminHandlers
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
-INFO: created /admin/: solr.admin.AdminHandlers
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.loader.XMLLoader init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.loader.XMLLoader init
 INFO: xsltCacheLifetimeSeconds=60
-Dec 2, 2013 9:45:24 AM org.apache.solr.search.SolrIndexSearcher <init>
-INFO: Opening Searcher@889ec59 main
-Dec 2, 2013 9:45:24 AM org.apache.solr.search.SolrIndexSearcher <init>
-INFO: Opening Searcher@16fbcb70 main
-Dec 2, 2013 9:45:24 AM org.apache.solr.update.CommitTracker <init>
+Dec 2, 2013 10:51:50 AM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@4a2ba88c main
+Dec 2, 2013 10:51:50 AM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@5a790192 main
+Dec 2, 2013 10:51:50 AM org.apache.solr.update.CommitTracker <init>
 INFO: Hard AutoCommit: if uncommited for 15000ms; 
-Dec 2, 2013 9:45:24 AM org.apache.solr.update.CommitTracker <init>
-INFO: Soft AutoCommit: if uncommited for 5000ms; 
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.component.SpellCheckComponent inform
-INFO: Initializing spell checkers
-Dec 2, 2013 9:45:24 AM org.apache.solr.update.CommitTracker <init>
+Dec 2, 2013 10:51:50 AM org.apache.solr.update.CommitTracker <init>
 INFO: Hard AutoCommit: if uncommited for 15000ms; 
-Dec 2, 2013 9:45:24 AM org.apache.solr.update.CommitTracker <init>
+Dec 2, 2013 10:51:50 AM org.apache.solr.update.CommitTracker <init>
 INFO: Soft AutoCommit: if uncommited for 5000ms; 
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.component.SpellCheckComponent inform
+Dec 2, 2013 10:51:50 AM org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.component.SpellCheckComponent inform
 INFO: Initializing spell checkers
-Dec 2, 2013 9:45:24 AM org.apache.solr.spelling.DirectSolrSpellChecker init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Dec 2, 2013 10:51:50 AM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@59b70f9e main
+Dec 2, 2013 10:51:50 AM org.apache.solr.spelling.DirectSolrSpellChecker init
 INFO: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-Dec 2, 2013 9:45:24 AM org.apache.solr.spelling.DirectSolrSpellChecker init
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+Dec 2, 2013 10:51:50 AM org.apache.solr.spelling.DirectSolrSpellChecker init
 INFO: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.component.SpellCheckComponent inform
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore registerSearcher
+INFO: [default] Registered new searcher Searcher@4a2ba88c main{StandardDirectoryReader(segments_1:1)}
+Dec 2, 2013 10:51:50 AM org.apache.solr.update.CommitTracker <init>
+INFO: Hard AutoCommit: if uncommited for 15000ms; 
+Dec 2, 2013 10:51:50 AM org.apache.solr.update.CommitTracker <init>
+INFO: Soft AutoCommit: if uncommited for 5000ms; 
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.component.SpellCheckComponent inform
 INFO: No queryConverter defined, using default converter
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.component.SpellCheckComponent inform
-INFO: No queryConverter defined, using default converter
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.ReplicationHandler inform
-INFO: Commits will be reserved for  10000
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.ReplicationHandler inform
-INFO: Commits will be reserved for  10000
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore registerSearcher
-INFO: [test] Registered new searcher Searcher@889ec59 main{StandardDirectoryReader(segments_1:1)}
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore registerSearcher
-INFO: [default] Registered new searcher Searcher@16fbcb70 main{StandardDirectoryReader(segments_1:1)}
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CoreContainer registerCore
-INFO: registering core: test
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CoreContainer registerCore
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CoreContainer registerCore
 INFO: registering core: default
-Dec 2, 2013 9:45:24 AM org.apache.solr.search.SolrIndexSearcher <init>
-INFO: Opening Searcher@6fe22c75 main
-Dec 2, 2013 9:45:24 AM org.apache.solr.update.CommitTracker <init>
-INFO: Hard AutoCommit: if uncommited for 15000ms; 
-Dec 2, 2013 9:45:24 AM org.apache.solr.update.CommitTracker <init>
-INFO: Soft AutoCommit: if uncommited for 5000ms; 
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.component.SpellCheckComponent inform
-INFO: Initializing spell checkers
-Dec 2, 2013 9:45:24 AM org.apache.solr.spelling.DirectSolrSpellChecker init
+Dec 2, 2013 10:51:50 AM org.apache.solr.spelling.DirectSolrSpellChecker init
 INFO: init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.component.SpellCheckComponent inform
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.component.SpellCheckComponent inform
 INFO: No queryConverter defined, using default converter
-Dec 2, 2013 9:45:24 AM org.apache.solr.handler.ReplicationHandler inform
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.ReplicationHandler inform
 INFO: Commits will be reserved for  10000
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.SolrCore registerSearcher
-INFO: [development] Registered new searcher Searcher@6fe22c75 main{StandardDirectoryReader(segments_d:127 _16(4.2):C600/24 _17(4.2):c8 _18(4.2):c16)}
-Dec 2, 2013 9:45:24 AM org.apache.solr.core.CoreContainer registerCore
+Dec 2, 2013 10:51:50 AM org.apache.solr.handler.ReplicationHandler inform
+INFO: Commits will be reserved for  10000
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore registerSearcher
+INFO: [test] Registered new searcher Searcher@5a790192 main{StandardDirectoryReader(segments_1:1)}
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.SolrCore registerSearcher
+INFO: [development] Registered new searcher Searcher@59b70f9e main{StandardDirectoryReader(segments_d:127 _16(4.2):C600/24 _17(4.2):c8 _18(4.2):c16)}
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CoreContainer registerCore
+INFO: registering core: test
+Dec 2, 2013 10:51:50 AM org.apache.solr.core.CoreContainer registerCore
 INFO: registering core: development
-Dec 2, 2013 9:45:24 AM org.apache.solr.servlet.SolrDispatchFilter init
-INFO: user.dir=/Users/Emily/.rvm/gems/ruby-2.0.0-p247/gems/sunspot_solr-2.1.0/solr
-Dec 2, 2013 9:45:24 AM org.apache.solr.servlet.SolrDispatchFilter init
+Dec 2, 2013 10:51:50 AM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/usr/local/rvm/gems/ruby-2.0.0-p247/gems/sunspot_solr-2.1.0/solr
+Dec 2, 2013 10:51:50 AM org.apache.solr.servlet.SolrDispatchFilter init
 INFO: SolrDispatchFilter.init() done
-Dec 2, 2013 9:45:29 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=364 
-Dec 2, 2013 9:46:09 AM org.apache.solr.core.SolrCore execute
+Dec 2, 2013 10:51:57 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=943 
+Dec 2, 2013 10:52:09 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 10:52:10 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
-Dec 2, 2013 9:46:16 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=headache&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=25 status=0 QTime=846 
-Dec 2, 2013 9:46:32 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=headache&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=25 status=0 QTime=68 
-Dec 2, 2013 9:47:57 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=headache,+tongue&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=43 status=0 QTime=89 
-Dec 2, 2013 9:48:18 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=headache,+abdominal+pain&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=123 status=0 QTime=135 
-Dec 2, 2013 9:49:03 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=salt&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=17 status=0 QTime=84 
-Dec 2, 2013 9:49:41 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=distended+stomach&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=22 status=0 QTime=81 
-Dec 2, 2013 9:53:47 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=cough+sneezing&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=16 status=0 QTime=117 
-Dec 2, 2013 9:53:51 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=cough+sneezing+whooping+cough&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=16 status=0 QTime=81 
-Dec 2, 2013 9:54:27 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=swelling&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=29 status=0 QTime=127 
-Dec 2, 2013 9:54:36 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=swelling+of+the+ears&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=593 status=0 QTime=81 
-Dec 2, 2013 9:55:03 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucination&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=7 status=0 QTime=49 
-Dec 2, 2013 9:55:23 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucination+the&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=583 status=0 QTime=94 
-Dec 2, 2013 9:55:37 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucination&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=7 status=0 QTime=32 
-Dec 2, 2013 9:55:40 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucination+the&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=583 status=0 QTime=79 
-Dec 2, 2013 9:56:31 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=blurred+vision&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=43 status=0 QTime=92 
-Dec 2, 2013 10:00:47 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucination&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=7 status=0 QTime=22 
-Dec 2, 2013 10:26:35 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucinations&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=7 status=0 QTime=27 
-Dec 2, 2013 10:26:38 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucinations&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=7 status=0 QTime=40 
-Dec 2, 2013 10:26:41 AM org.apache.solr.core.SolrCore execute
-INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=hallucinations+sleepiness&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=8 status=0 QTime=41 
+Dec 2, 2013 10:52:50 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Dec 2, 2013 10:53:37 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Dec 2, 2013 10:53:38 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 10:54:31 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 10:54:44 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 10:55:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Dec 2, 2013 10:55:31 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 10:55:45 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 10:56:13 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=0 
+Dec 2, 2013 10:56:18 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 10:56:30 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=sakt&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=77 
+Dec 2, 2013 10:56:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=salt&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=17 status=0 QTime=929 
+Dec 2, 2013 10:56:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=salt&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=17 status=0 QTime=87 
+Dec 2, 2013 10:56:40 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=salt&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=17 status=0 QTime=61 
+Dec 2, 2013 10:56:45 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=salt&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=17 status=0 QTime=64 
+Dec 2, 2013 10:57:53 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=600 status=0 QTime=1 
+Dec 2, 2013 11:09:27 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=headachejoint+pain&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=100 status=0 QTime=102 
+Dec 2, 2013 11:09:48 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=headachejoint+pain&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=100 status=0 QTime=56 
+Dec 2, 2013 11:09:54 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=headachejoint+pain&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=100 status=0 QTime=60 
+Dec 2, 2013 11:10:55 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q='headache'%2B'joint+pain'&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=100 status=0 QTime=387 
+Dec 2, 2013 11:11:29 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=58 
+Dec 2, 2013 11:11:58 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=52 
+Dec 2, 2013 11:12:00 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=46 
+Dec 2, 2013 11:12:31 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=42 
+Dec 2, 2013 11:12:40 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=41 
+Dec 2, 2013 11:12:42 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=44 
+Dec 2, 2013 11:12:45 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=44 
+Dec 2, 2013 11:13:01 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=47 
+Dec 2, 2013 11:13:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=45 
+Dec 2, 2013 11:13:04 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=48 
+Dec 2, 2013 11:13:05 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=57 
+Dec 2, 2013 11:13:06 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=58 
+Dec 2, 2013 11:13:25 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="headache"%2B"joint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=9 status=0 QTime=47 
+Dec 2, 2013 11:13:34 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=43 
+Dec 2, 2013 11:14:08 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=47 
+Dec 2, 2013 11:14:15 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=44 
+Dec 2, 2013 11:14:18 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=45 
+Dec 2, 2013 11:14:23 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=7&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=46 
+Dec 2, 2013 11:14:25 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=7&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=49 
+Dec 2, 2013 11:14:28 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=7&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=49 
+Dec 2, 2013 11:14:29 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=7&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=45 
+Dec 2, 2013 11:14:30 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=7&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=42 
+Dec 2, 2013 11:14:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=44 
+Dec 2, 2013 11:14:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=45 
+Dec 2, 2013 11:14:37 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=9 status=0 QTime=45 
+Dec 2, 2013 11:14:47 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=2&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=9 
+Dec 2, 2013 11:14:53 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=7 
+Dec 2, 2013 11:14:54 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=11 
+Dec 2, 2013 11:14:54 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:14:54 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:14:55 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=7 
+Dec 2, 2013 11:14:55 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=9 
+Dec 2, 2013 11:14:55 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=3&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=7 
+Dec 2, 2013 11:14:58 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:15:01 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:15:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=12 
+Dec 2, 2013 11:15:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:15:04 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="headache"%2B"joint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=9 status=0 QTime=51 
+Dec 2, 2013 11:15:15 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"%2B"stuffy+nose"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=5 
+Dec 2, 2013 11:15:27 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=10 
+Dec 2, 2013 11:15:44 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"%2B"truncal+ataxia"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=10 
+Dec 2, 2013 11:16:07 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"%2B"shake"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=9 
+Dec 2, 2013 11:16:14 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"%2B"shakez"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=4 
+Dec 2, 2013 11:16:16 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"%2B"shakes"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:16:43 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint&q=pain"%2B"shake"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=8 
+Dec 2, 2013 11:16:53 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q=%2B"headache"%2B"joint+pain"%2B"shake"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=7 
+Dec 2, 2013 11:24:44 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bheadache"+"%2Bstuffy+nose"+"%2Bjoint+pain"+"%2Bsad+face"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=6 
+Dec 2, 2013 11:24:46 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bheadache"+"%2Bstuffy+nose"+"%2Bjoint+pain"+"%2Bsad+face"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=2 
+Dec 2, 2013 11:24:57 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bheadache"+"%2Bjoint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=17 
+Dec 2, 2013 11:25:46 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2BAbdominal+Cramps"+"%2BVertigo"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:00 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2BAbdomial"+"%2BCramps"+"%2BVertigo"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:05 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=5 status=0 QTime=13 
+Dec 2, 2013 11:26:11 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bwheezing"+"%2Bdiziness"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:18 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"+"%2Bdizziness"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=3 
+Dec 2, 2013 11:26:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore-throat"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:41 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore+throat"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:26:44 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bsore+throat"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=3 status=0 QTime=24 
+Dec 2, 2013 11:27:24 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore+throat"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=8 status=0 QTime=33 
+Dec 2, 2013 11:27:25 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore+throat"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=8 status=0 QTime=39 
+Dec 2, 2013 11:28:19 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bheadache"+"%2Bjoint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=33 status=0 QTime=116 
+Dec 2, 2013 11:28:26 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bheadache"+"%2Bjoint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:28:37 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BAbdomial"+"%2BCramps"+"%2BVertigo"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=15 status=0 QTime=54 
+Dec 2, 2013 11:28:53 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbleeding"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=30 status=0 QTime=126 
+Dec 2, 2013 11:29:01 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbleeding"+"%2Bcrying"+"%2Bheadaches"+"%2Bmike+spangler"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=61 status=0 QTime=67 
+Dec 2, 2013 11:30:27 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Basdflkjhasdlkjfhakldsjhflkjadshfkljahsdkfljhasdkjlfh"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=2 
+Dec 2, 2013 11:30:34 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=2 
+Dec 2, 2013 11:30:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=0 
+Dec 2, 2013 11:30:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:30:37 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:30:47 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:31:12 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bheadache"+"%2Bstuffy+nose"+"%2Bjoint+pain"+"%2Bsad+face"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=33 status=0 QTime=119 
+Dec 2, 2013 11:31:24 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbladder+incontinence"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:31:30 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbladder"+"%2Bincontinence"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=27 status=0 QTime=102 
+Dec 2, 2013 11:33:14 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bstuffy+nose"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=2 
+Dec 2, 2013 11:33:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BStuffy+Nose"+"%2BSore+Throat"+"%2BHeadache"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=27 status=0 QTime=117 
+Dec 2, 2013 11:33:45 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BHeadache"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=27 status=0 QTime=121 
+Dec 2, 2013 11:33:54 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=113 
+Dec 2, 2013 11:34:40 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=97 
+Dec 2, 2013 11:34:42 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=105 
+Dec 2, 2013 11:34:43 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=106 
+Dec 2, 2013 11:34:52 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:34:55 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=97 
+Dec 2, 2013 11:34:56 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=112 
+Dec 2, 2013 11:34:56 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:34:57 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=105 
+Dec 2, 2013 11:34:57 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=104 
+Dec 2, 2013 11:34:58 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=142 
+Dec 2, 2013 11:34:59 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:35:00 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=102 
+Dec 2, 2013 11:35:01 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=102 
+Dec 2, 2013 11:35:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=108 
+Dec 2, 2013 11:35:03 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:35:04 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:35:05 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=94 
+Dec 2, 2013 11:35:06 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=95 
+Dec 2, 2013 11:35:52 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:36:08 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=98 
+Dec 2, 2013 11:36:12 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=97 
+Dec 2, 2013 11:36:18 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=93 
+Dec 2, 2013 11:36:30 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:36:43 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:37:07 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=101 
+Dec 2, 2013 11:37:10 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=94 
+Dec 2, 2013 11:37:17 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=98 
+Dec 2, 2013 11:37:29 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:37:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=104 
+Dec 2, 2013 11:37:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=96 
