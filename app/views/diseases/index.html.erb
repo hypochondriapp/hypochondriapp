@@ -9,7 +9,7 @@ Enter your symptoms:
 
 <% disease_name = @diseases[0..2].collect(&:name).max_by(&:length) %>
 
-<% disease_url =  Disease.find_by(:name => disease_name).url %>
+<% disease_url =  Disease.find_by(:name => disease_name).try(:url) %>
 
 zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
 <%= link_to disease_name, "http://www.wikipedia.org/#{disease_url}", :target => "blank" %>
