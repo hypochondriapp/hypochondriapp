@@ -1,16 +1,22 @@
-
+<br>
+<p>
 Enter your symptoms:
+</p>
+<br>
+<br>
 <%= form_tag diseases_path, :method => :get do %>
   <div class="ui-widget">
       <%= text_field_tag :search, params[:search], id: "tags", size: "50" %>
+      <br>
       <%= submit_tag "Search", :name => nil %>
   </div>
-<% end %><br><br>
+<% end %><br>
 
 <% disease_name = @diseases[0..2].collect(&:name).max_by(&:length) %>
 
 <% disease_url =  Disease.find_by(:name => disease_name).try(:url) %>
-
+<p>
 zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
 <%= link_to disease_name, "http://www.wikipedia.org/#{disease_url}", :target => "blank" %>
+</p>
 <br><br>
