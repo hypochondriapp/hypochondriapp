@@ -1,0 +1,42 @@
+
+Enter your symptoms:
+<%= form_tag diseases_path, :method => :get do %>
+  <div class="ui-widget">
+      <%= text_field_tag :search, params[:search], id: "tags", size: "50" %>
+      <%= submit_tag "Search", :name => nil %>
+  </div>
+<% end %><br><br>
+
+
+<!-- Option 1 -->
+zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
+<%= @diseases[0..2].collect(&:name).max_by(&:length) %><br><br>
+
+
+<!-- Disease Count: <%#= @diseases.size %><br><br>
+ -->
+
+
+<%#= @diseases.map(&:name) %>
+
+
+
+
+
+<% @search.hits.each do |hit| %>
+  <%= "Disease ##{hit.primary_key}: " %>
+      <% hit.highlights(:page_content).each do |highlight| %>
+        <% highlight.format do |word| %>
+          <strong><%= word %></strong><br>
+        <% end %>
+     <% end %>
+<% end %>
+<!-- <br>
+ -->
+<!-- Option 2 -->
+<% @search.hits.each do |hit| %>
+  <%= "Disease ##{hit.primary_key}" %><br>
+      <% hit.highlights(:page_content).each do |highlight| %>
+        <%= "  " + highlight.format { |word| "*#{word}*" } %><br><br>
+     <% end %>
+  <% end %>

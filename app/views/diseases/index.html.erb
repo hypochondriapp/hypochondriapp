@@ -7,36 +7,10 @@ Enter your symptoms:
   </div>
 <% end %><br><br>
 
+<% disease_name = @diseases[0..2].collect(&:name).max_by(&:length) %>
 
-<!-- Option 1 -->
+<% disease_url =  Disease.find_by(:name => disease_name).url %>
+
 zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
-<%= @diseases[0..2].collect(&:name).max_by(&:length) %><br><br>
-
-
-Disease Count: <%= @diseases.size %><br><br>
-
-
-
-<%= @diseases.map(&:name) %>
-
-
-
-
-
-<% @search.hits.each do |hit| %>
-  <%= "Disease ##{hit.primary_key}: " %>
-      <% hit.highlights(:page_content).each do |highlight| %>
-        <% highlight.format do |word| %>
-          <strong><%= word %></strong><br>
-        <% end %>
-     <% end %>
-<% end %>
-<!-- <br>
- -->
-<!-- Option 2 -->
-<% @search.hits.each do |hit| %>
-  <%= "Disease ##{hit.primary_key}" %><br>
-      <% hit.highlights(:page_content).each do |highlight| %>
-        <%= "  " + highlight.format { |word| "*#{word}*" } %><br><br>
-     <% end %>
-  <% end %>
+<%= link_to disease_name, "http://www.wikipedia.org/#{disease_url}", :target => "blank" %>
+<br><br>
