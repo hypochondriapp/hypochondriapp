@@ -446,3 +446,33 @@ Dec 2, 2013 11:24:46 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bheadache"+"%2Bstuffy+nose"+"%2Bjoint+pain"+"%2Bsad+face"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=2 
 Dec 2, 2013 11:24:57 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bheadache"+"%2Bjoint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=17 
+Dec 2, 2013 11:25:46 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2BAbdominal+Cramps"+"%2BVertigo"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:00 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2BAbdomial"+"%2BCramps"+"%2BVertigo"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:05 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=5 status=0 QTime=13 
+Dec 2, 2013 11:26:11 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bwheezing"+"%2Bdiziness"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:18 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"+"%2Bdizziness"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=3 
+Dec 2, 2013 11:26:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore-throat"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:26:41 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore+throat"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:26:44 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bsore+throat"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=3 status=0 QTime=24 
+Dec 2, 2013 11:27:24 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore+throat"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=8 status=0 QTime=33 
+Dec 2, 2013 11:27:25 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bvertigo"+"%2Bsore+throat"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=8 status=0 QTime=39 
+Dec 2, 2013 11:28:19 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bheadache"+"%2Bjoint+pain"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=33 status=0 QTime=116 
+Dec 2, 2013 11:28:26 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={fl=*+score&start=0&q="%2Bheadache"+"%2Bjoint+pain"&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.simple.post=@@@endhl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&fq=type:Disease&rows=30&defType=edismax} hits=1 status=0 QTime=6 
+Dec 2, 2013 11:28:37 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BAbdomial"+"%2BCramps"+"%2BVertigo"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=15 status=0 QTime=54 
+Dec 2, 2013 11:28:53 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbleeding"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=30 status=0 QTime=126 
+Dec 2, 2013 11:29:01 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbleeding"+"%2Bcrying"+"%2Bheadaches"+"%2Bmike+spangler"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=61 status=0 QTime=67 

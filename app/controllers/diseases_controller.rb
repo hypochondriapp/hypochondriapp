@@ -6,6 +6,7 @@ class DiseasesController < ApplicationController
     @search = Disease.search do
       fulltext quoted_search_terms do
         highlight :page_content
+        minimum_match 1
       end
     end
     @diseases = @search.results
