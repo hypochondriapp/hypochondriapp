@@ -1,13 +1,14 @@
+
+Enter your symptoms:
 <%= form_tag diseases_path, :method => :get do %>
-  <p>
-    <%= text_field_tag :search, params[:search] %>
-    <%= submit_tag "Search", :name => nil %>
-  </p>
-<% end %>
+  <div class="ui-widget">
+      <%= text_field_tag :search, params[:search], id: "tags", size: "50" %>
+      <%= submit_tag "Search", :name => nil %>
+  </div>
+<% end %><br><br>
+
 
 <!-- Option 1 -->
-
-
 zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
 <%= @diseases[0..2].collect(&:name).max_by(&:length) %><br><br>
 
