@@ -8,9 +8,12 @@
 <!-- Option 1 -->
 
 
-zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br><br><br>
+zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
+<%= @diseases[0..2].collect(&:name).max_by(&:length) %><br><br>
+
 
 Disease Count: <%= @diseases.size %><br><br>
+
 
 
 <%= @diseases.map(&:name) %>

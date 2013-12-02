@@ -476,3 +476,89 @@ Dec 2, 2013 11:28:53 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbleeding"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=30 status=0 QTime=126 
 Dec 2, 2013 11:29:01 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbleeding"+"%2Bcrying"+"%2Bheadaches"+"%2Bmike+spangler"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=61 status=0 QTime=67 
+Dec 2, 2013 11:30:27 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Basdflkjhasdlkjfhakldsjhflkjadshfkljahsdkfljhasdkjlfh"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=2 
+Dec 2, 2013 11:30:34 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=2 
+Dec 2, 2013 11:30:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=0 
+Dec 2, 2013 11:30:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:30:37 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:30:47 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bblack+hairy+tongue"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 2, 2013 11:31:12 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bheadache"+"%2Bstuffy+nose"+"%2Bjoint+pain"+"%2Bsad+face"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=33 status=0 QTime=119 
+Dec 2, 2013 11:31:24 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbladder+incontinence"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=3 
+Dec 2, 2013 11:31:30 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bbladder"+"%2Bincontinence"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=27 status=0 QTime=102 
+Dec 2, 2013 11:33:14 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bstuffy+nose"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=2 
+Dec 2, 2013 11:33:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BStuffy+Nose"+"%2BSore+Throat"+"%2BHeadache"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=27 status=0 QTime=117 
+Dec 2, 2013 11:33:45 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BHeadache"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=27 status=0 QTime=121 
+Dec 2, 2013 11:33:54 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=113 
+Dec 2, 2013 11:34:40 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=97 
+Dec 2, 2013 11:34:42 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=105 
+Dec 2, 2013 11:34:43 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=106 
+Dec 2, 2013 11:34:52 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:34:55 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=97 
+Dec 2, 2013 11:34:56 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=112 
+Dec 2, 2013 11:34:56 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:34:57 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=105 
+Dec 2, 2013 11:34:57 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=104 
+Dec 2, 2013 11:34:58 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=142 
+Dec 2, 2013 11:34:59 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:35:00 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=102 
+Dec 2, 2013 11:35:01 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=102 
+Dec 2, 2013 11:35:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=108 
+Dec 2, 2013 11:35:03 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:35:04 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:35:05 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=94 
+Dec 2, 2013 11:35:06 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=95 
+Dec 2, 2013 11:35:52 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:36:08 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=98 
+Dec 2, 2013 11:36:12 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=97 
+Dec 2, 2013 11:36:18 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=93 
+Dec 2, 2013 11:36:30 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:36:43 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=103 
+Dec 2, 2013 11:37:07 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=101 
+Dec 2, 2013 11:37:10 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=94 
+Dec 2, 2013 11:37:17 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=98 
+Dec 2, 2013 11:37:29 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=99 
+Dec 2, 2013 11:37:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=104 
+Dec 2, 2013 11:37:36 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BSore+Throat"+"%2BFever"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=37 status=0 QTime=96 
