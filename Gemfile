@@ -34,11 +34,10 @@ group :doc do
 end
 
 gem 'nokogiri'
-
 gem 'pry'
-
 gem 'sunspot_rails'
 gem 'sunspot_solr'
+gem 'rails_12factor'
 
 group :test, :development do
   gem "better_errors"
