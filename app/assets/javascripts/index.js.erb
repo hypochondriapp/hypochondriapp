@@ -1,7 +1,7 @@
 
 
 $(function() {
-    var availableTags = <%= Symptom.all[1..100].collect(&:name) %>;
+    var availableTags = <%= Symptom.active.collect(&:name).sort %>;
     function split( val ) {
       return val.split( /,\s*/ );
     }
