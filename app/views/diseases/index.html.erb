@@ -13,7 +13,7 @@ zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:
 
 <%@disease_array = [] %>
 
-<% @diseases.each do |disease| %>
+<% @diseases.map(&:name) %>
   <h4><% @disease_array << disease.name %></h4>
   <ul>
 
