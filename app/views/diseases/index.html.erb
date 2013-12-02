@@ -9,7 +9,7 @@
 
 
 zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:
-<% @diseases.first.name %>
+<%# @diseases.first.name %>
 
 <%@disease_array = [] %>
 
@@ -23,7 +23,10 @@ zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:
   </ul>
 <% end %>
 
-<%= @disease_array.max_by(&:length) %>
+<%= @disease_array.max_by(&:length) %><br><br><br><br>
+
+Other Possible diseases:<br>
+<%= @disease_array %>
 
 
 
