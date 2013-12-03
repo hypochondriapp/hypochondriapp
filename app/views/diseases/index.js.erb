@@ -1,4 +1,4 @@
 $(function() {
   $(".search-form").hide();
-  $("#disease-result").show(1000).html('<%= j render(:partial => "disease_result") %>');
+  $("#disease-result").hide().html('<%= j render(:partial => "disease_result") %>').fadeIn(900);
 });
