@@ -31,4 +31,14 @@ class Symptom < ActiveRecord::Base
     Symptom.where(:active => true)
   end
 
+  def self.strip_symptoms
+    Symptom.all.each do |symptom| 
+      stripped_name = symptom.name.strip
+      symptom.update(:name => stripped_name)
+    end
+  end
+
+  def self.dedupe
+  end
+
 end
