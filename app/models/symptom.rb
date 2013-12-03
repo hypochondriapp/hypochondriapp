@@ -32,7 +32,7 @@ class Symptom < ActiveRecord::Base
   end
 
   def self.strip_symptoms
-    Symptom.all.each do |symptom| 
+    Symptom.all.each do |symptom|
       stripped_name = symptom.name.strip
       symptom.update(:name => stripped_name)
     end
@@ -46,4 +46,13 @@ class Symptom < ActiveRecord::Base
     end
   end
 
+  def self.add_symptom(*symptoms)
+    symptoms.each do |symptom|
+      Symptom.find_or_create_by(:name => symptom.titleize, :active => true)
+    end
+  end
+
 end
+
+
+"runny nose","hallucation", "migrains"
