@@ -1,9 +1,12 @@
-<div class="result-modal">
-<p>
-  <h1 class="diagnosis">OH NO. IT LOOKS LIKE YOU COULD HAVE:</h1>
-  <h1><%= link_to @disease_name.upcase, "http://www.wikipedia.org/#{@disease_url}", :target => "blank" %></h1>
-</p>
-<%= image_tag "skull-and-crossbones.png", :id => "skull-image" %>
-<h3 class="disclaimer">Disclaimer: This is a humor app. We are not real doctors, and you probably don't have this disease. But if you are really concerned, please see a real doctor.</h1>
-<h2 class="try-again-link"><%= link_to "Misdiagnosed? Try again >>", "/" %></h2>
+<div>
+  <div class="close-out"></div>
+  <div class="result-modal">
+  <p>
+    <h2 class="diagnosis">OH NO. IT LOOKS LIKE YOU COULD HAVE:</h2>
+    <h2><%= link_to @disease_name.upcase, "http://www.wikipedia.org/#{@disease_url}", :target => "blank" %></h2>
+  </p>
+  <%= image_tag "skull-and-crossbones.png", :id => "skull-image" %>
+  <p class="disclaimer">Disclaimer: This is a humor app. We are not real doctors, and you probably don't have this esoteric disease. But if you are really concerned, please see a real doctor.</p>
+  <h3 class="try-again-link"><%= link_to "Misdiagnosed? Try again >>", "/" %></h3>
+  </div>
 </div>
