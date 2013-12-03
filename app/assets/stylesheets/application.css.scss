@@ -26,6 +26,7 @@
 }
 
 .search-form {
+  margin-top: 11%;
   zoom: 150%;
 }
 
@@ -123,3 +124,34 @@ p {
 p {
   font-size: 22px;
 }
+
+@media only screen and (max-width: 450px) {
+  .logo {
+    font-size: 1.75em;
+    font: arial-black;
+    color: white;
+    text-shadow:
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000;
+    padding-bottom: 0;
+    margin: 0 auto;
+  }
+
+  .search-form {
+  margin-top: 0;
+  zoom: 100%;
+  }
+
+  .search-query {
+    margin: 0 40px 100px 40px;
+  }
+
+  #tags {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+
+}
+
