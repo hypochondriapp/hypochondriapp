@@ -54,5 +54,3 @@ class Symptom < ActiveRecord::Base
 
 end
 
-
-"runny nose","hallucation", "migrains"
