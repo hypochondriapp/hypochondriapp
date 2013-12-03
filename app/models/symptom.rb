@@ -39,6 +39,11 @@ class Symptom < ActiveRecord::Base
   end
 
   def self.dedupe
+    grouped = Symptom.all.group_by{|symptom| [symptom.name] }
+    grouped.values.each do |duplicates|
+      first_one = duplicates.shift
+      duplicates.each{|double| double.destroy}
+    end
   end
 
 end
