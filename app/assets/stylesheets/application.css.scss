@@ -17,8 +17,12 @@
 
 }*/
 
+.search-form {
+  zoom: 150%;
+}
+
 .logo {
-  font-size: 4em;
+  font-size: 5em;
   font: arial-black;
   color: white;
   text-shadow:
@@ -26,12 +30,12 @@
     2px -2px 0 #000,
     -2px 2px 0 #000,
     2px 2px 0 #000;  
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   margin-left: -70px;
 }
 
 #tags {
-  width: 30%;
+  width: 55%;
 }
 
 a:hover {
