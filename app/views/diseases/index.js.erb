@@ -1,3 +1,4 @@
 $(function() {
-  $("#disease-result").html('<%= j render(:partial => "disease_result") %>');
+  $(".search-form").fadeOut();
+  $("#disease-result").fadeIn().html('<%= j render(:partial => "disease_result") %>');
 });

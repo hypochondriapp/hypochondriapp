@@ -16,3 +16,8 @@
 //= require jquery.ui.all
 //= require turbolinks
 //= require_tree .
+
+
+$(function() {
+  $("#disease-result").hide();
+});

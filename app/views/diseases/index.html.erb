@@ -1,4 +1,5 @@
 <br>
+<div class="search-form", >
 <p>
 Enter your symptoms:
 </p>
@@ -8,43 +9,14 @@ Enter your symptoms:
   <div class="ui-widget">
       <%= text_field_tag :search, params[:search], id: "tags", size: "50" %>
       <br>
-      <%= submit_tag "Search", :name => nil %>
+      <%= submit_tag "Search", :name => nil, class: "btn btn-primary btn-lg", id: "search-submit" %>
 
       <!-- :"data-toggle" => "modal", :"data-target" => "#myModal", -->
   </div>
 <% end %><br>
-
-<div id="disease-result">
-  <p>
-  zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
-  <%= link_to @disease_name, "http://www.wikipedia.org/#{@disease_url}", :target => "blank" %>
-  </p>
 </div>
-<br><br>
 
-<!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
+<div id="disease-result">`
+</div>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        <p>
-zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
-<%= link_to @disease_name, "http://www.wikipedia.org/#{@disease_url}", :target => "blank" %>
-</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+

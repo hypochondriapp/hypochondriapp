@@ -35,6 +35,36 @@ body {
 
 p {
   color: white;
-  background-color: black;
   opacity: .8;
 }
+
+#disease-result {
+  background-color: rgba(0,0,0,0.7);
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+#skull-image {
+  width: 30%;
+  margin: 20px;
+}
+
+.result-modal {
+  padding: 40px;
+}
+
+.diagnosis {
+  color: white;
+}
+
+.disclaimer {
+  color: white;
+  text-align: left;
+}
+
+.try-again-link {
+  text-align: right;
+}
+
+
