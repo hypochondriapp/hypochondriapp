@@ -1,15 +1,12 @@
 <br>
 <div class="search-form", >
-<p>
-Enter your symptoms:
-</p>
 <br>
 <br>
+<h1 class="logo">hypochondriapp</h1>
 <%= form_tag diseases_path, :remote => true, :method => :get do %>
   <div class="ui-widget">
-      <%= text_field_tag :search, params[:search], id: "tags", size: "50" %>
-      <br>
-      <%= submit_tag "Search", :name => nil, class: "btn btn-primary btn-lg", id: "search-submit" %>
+      <%= search_field_tag :search, params[:search], id: "tags", class: "search-query", size: "50", :placeholder => "Enter Your Symptoms" %>
+      <%= submit_tag "Search", :name => nil, class: "btn btn-danger btn-lg", id: "search-submit" %>
 
       <!-- :"data-toggle" => "modal", :"data-target" => "#myModal", -->
   </div>
