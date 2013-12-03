@@ -4,21 +4,22 @@ Enter your symptoms:
 </p>
 <br>
 <br>
-<%= form_tag diseases_path, :method => :get do %>
+<%= form_tag diseases_path, :remote => true, :method => :get do %>
   <div class="ui-widget">
       <%= text_field_tag :search, params[:search], id: "tags", size: "50" %>
       <br>
-      <%= submit_tag "Search", :name => nil, :"data-toggle" => "modal", :"data-target" => "#myModal" %>
+      <%= submit_tag "Search", :name => nil %>
+
+      <!-- :"data-toggle" => "modal", :"data-target" => "#myModal", -->
   </div>
 <% end %><br>
 
-<% disease_name = @diseases[0..2].collect(&:name).max_by(&:length) %>
-
-<% disease_url =  Disease.find_by(:name => disease_name).try(:url) %>
-<p>
-zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
-<%= link_to disease_name, "http://www.wikipedia.org/#{disease_url}", :target => "blank" %>
-</p>
+<div id="disease-result">
+  <p>
+  zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
+  <%= link_to @disease_name, "http://www.wikipedia.org/#{@disease_url}", :target => "blank" %>
+  </p>
+</div>
 <br><br>
 
 <!-- Button trigger modal -->
@@ -35,7 +36,10 @@ zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
       <div class="modal-body">
-        ...
+        <p>
+zOMG. WATCH OUT AND BE CAREFUL!!!! YOU COULD HAVE:<br>
+<%= link_to @disease_name, "http://www.wikipedia.org/#{@disease_url}", :target => "blank" %>
+</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
