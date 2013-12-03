@@ -53,4 +53,3 @@ class Symptom < ActiveRecord::Base
   end
 
 end
-
