@@ -5,7 +5,7 @@ class DiseasesController < ApplicationController
       @diseases = []
     else
       quoted_search_terms = params[:search].split(",").collect do |symptom|
-        "\"+#{symptom.strip}\"" 
+        "\"+#{symptom.strip}\""
       end.join(" ")
 
       @search = Disease.search do
@@ -17,7 +17,7 @@ class DiseasesController < ApplicationController
 
       @diseases = @search.results
 
-      @disease_name = @diseases[0..2].collect(&:name).max_by(&:length)
+      @disease_name = @diseases[0..4].collect(&:name).shuffle.first
       @disease_url = Disease.find_by(:name => @disease_name).try(:url)
 
       respond_to do |format|
