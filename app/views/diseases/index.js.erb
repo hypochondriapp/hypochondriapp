@@ -1,4 +1,12 @@
 $(function() {
   $(".search-form").hide();
   $("#disease-result").hide().html('<%= j render(:partial => "disease_result") %>').fadeIn(900);
+  $(".try-again-link").click(function() {
+    $(".search-form").fadeIn(500);
+    $("#disease-result").hide();
+  });
+  $(".close-out").click(function() {
+    $(".search-form").fadeIn(500);
+    $("#disease-result").hide();
+  });
 });
