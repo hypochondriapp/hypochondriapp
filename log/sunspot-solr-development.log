@@ -422,3 +422,17 @@ Dec 4, 2013 10:03:42 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
 Dec 4, 2013 10:32:03 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BAcid+Reflux"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=8 
+Dec 4, 2013 12:09:08 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=4 
+Dec 4, 2013 1:15:48 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BRunny+Nose"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=9 
+Dec 4, 2013 1:37:58 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BBack+Pain"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=18 
+Dec 4, 2013 2:07:39 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=2 
+Dec 4, 2013 2:07:52 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BRunny+Nose"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=6 
+Dec 4, 2013 2:07:58 PM org.apache.solr.servlet.SolrDispatchFilter handleAdminRequest
+INFO: [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json} status=0 QTime=6 
+Dec 4, 2013 2:07:58 PM org.apache.solr.core.SolrCore execute
+INFO: [default] webapp=/solr path=/admin/system params={wt=json} status=0 QTime=97 
