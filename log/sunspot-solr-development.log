@@ -364,3 +364,57 @@ Dec 3, 2013 9:33:04 PM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
 Dec 3, 2013 9:33:07 PM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:34:15 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:34:18 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:34:20 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:34:23 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:34:27 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:34:32 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:34:35 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:34:45 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:34:50 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:34:59 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:35:29 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:35:37 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:35:45 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:35:50 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=2 
+Dec 3, 2013 9:36:11 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:36:13 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:38:06 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:38:19 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:38:20 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:38:29 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:38:39 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:38:49 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:41:08 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:41:22 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:41:31 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=0 
+Dec 3, 2013 9:41:41 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
+Dec 3, 2013 9:41:49 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=598 status=0 QTime=1 
