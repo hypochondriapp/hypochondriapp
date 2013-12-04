@@ -134,6 +134,15 @@ p {
 }
 
 @media only screen and (max-width: 450px) {
+
+  #disease-result {
+    zoom: 50%;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
   .logo {
     font-size: 1.75em;
     font: arial-black;
@@ -160,6 +169,11 @@ p {
     width: 60%;
     margin-bottom: 10px;
   }
+
+  .ui-autocomplete {
+    visibility: hidden;
+  }
+
 
 }
 
