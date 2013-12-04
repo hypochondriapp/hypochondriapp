@@ -338,3 +338,51 @@ Dec 4, 2013 9:14:24 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Basfadsfadsfads"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
 Dec 4, 2013 9:14:24 AM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Basfadsfadsfads"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:25 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BRunny+Nose"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=18 
+Dec 4, 2013 9:16:30 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bsdfgagzdfsfgsfdgsfdgs"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:31 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bsdfgagzdfsfgsfdgsfdgs"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:31 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bsdfgagzdfsfgsfdgsfdgs"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:31 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bsdfgagzdfsfgsfdgsfdgs"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bsdfgagzdfsfgsfdgsfdgs"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:33 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bsdfgagzdfsfgsfdgsfdgs"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:51 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bsdfgagzdfsfgsfdgsfdgs"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:55 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Badsfasdfads"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:16:56 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Badsfasdfads"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:17:49 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BRunny+Nose"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=17 
+Dec 4, 2013 9:18:59 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BRunny+Nose"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=14 
+Dec 4, 2013 9:35:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=2 
+Dec 4, 2013 9:35:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:02 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:03 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:03 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:03 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:03 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:03 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:04 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:14 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:14 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 
+Dec 4, 2013 9:35:14 AM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2Bhgfjhgfjhfg"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=1 

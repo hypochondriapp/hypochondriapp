@@ -20,7 +20,7 @@ $(function() {
         source: function( request, response ) {
           // delegate back to autocomplete, but extract the last term
           response( $.ui.autocomplete.filter(
-            availableTags, extractLast( request.term ) ) );
+            availableTags, extractLast( request.term ) ).slice(0,5) );
         },
         focus: function() {
           // prevent value inserted on focus
