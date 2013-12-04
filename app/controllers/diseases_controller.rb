@@ -15,7 +15,7 @@ class DiseasesController < ApplicationController
         end
       end
 
-      @search.results.nil? ? @diseases = @search.results : @diseases = Disease.all.shuffle[0..4]
+      @diseases = @search.results
       @disease_name = @diseases[0..4].collect(&:name).shuffle.first
       @disease_url = Disease.find_by(:name => @disease_name).try(:url)
 
