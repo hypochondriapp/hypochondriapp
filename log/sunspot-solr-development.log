@@ -380,3 +380,19 @@ Dec 4, 2013 2:18:57 PM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BRunny+Nose"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=72 
 Dec 4, 2013 2:26:06 PM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=599 status=0 QTime=3 
+Dec 4, 2013 2:34:12 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BEyelid+Drooping"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=0 status=0 QTime=3 
+Dec 4, 2013 2:34:19 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BInvoluntary+Movement+Of+The+Eyes"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=2 status=0 QTime=106 
+Dec 4, 2013 2:34:23 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BAtrophy"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=47 status=0 QTime=181 
+Dec 4, 2013 2:34:31 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BHyperactivity"+"%2BHypertrophy"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=29 status=0 QTime=97 
+Dec 4, 2013 2:34:40 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BBalance"+"%2BPoor+Muscle+Tone"+"%2BPoor+Balance"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=36 status=0 QTime=189 
+Dec 4, 2013 2:35:04 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BMuscle+Atrophy"+"%2BMuscle+Weakness"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=30 status=0 QTime=137 
+Dec 4, 2013 2:35:17 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BAnemia"+"%2BAllergic+Reaction"+"%2BAcid+Reflux"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=38 status=0 QTime=83 
+Dec 4, 2013 2:36:11 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BHallucation"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=4 
