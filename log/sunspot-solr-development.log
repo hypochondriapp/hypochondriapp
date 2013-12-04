@@ -378,3 +378,5 @@ Dec 4, 2013 2:18:49 PM org.apache.solr.update.processor.LogUpdateProcessor finis
 INFO: [development] webapp=/solr path=/update params={wt=ruby} {commit=} 0 720
 Dec 4, 2013 2:18:57 PM org.apache.solr.core.SolrCore execute
 INFO: [development] webapp=/solr path=/select params={mm=1&qf=page_content_texts&hl.simple.pre=@@@hl@@@&hl.fl=page_content_texts&wt=ruby&hl=on&defType=edismax&rows=30&fl=*+score&start=0&q="%2BRunny+Nose"+"%2B"&hl.simple.post=@@@endhl@@@&fq=type:Disease} hits=1 status=0 QTime=72 
+Dec 4, 2013 2:26:06 PM org.apache.solr.core.SolrCore execute
+INFO: [development] webapp=/solr path=/select params={start=0&q=*:*&wt=ruby&fq=type:Disease&rows=30} hits=599 status=0 QTime=3 
