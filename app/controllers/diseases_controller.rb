@@ -16,6 +16,7 @@ class DiseasesController < ApplicationController
       end
 
       @diseases = @search.results
+      @diseases << Disease.first if @diseases.count == 0
       @disease_name = @diseases[0..4].collect(&:name).shuffle.first
       @disease_url = Disease.find_by(:name => @disease_name).try(:url)
 
@@ -23,10 +24,7 @@ class DiseasesController < ApplicationController
         format.html { render action: "index" }
         format.js
       end
-
     end
-
-
   end
 
 end
