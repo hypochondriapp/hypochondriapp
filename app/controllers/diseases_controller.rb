@@ -19,12 +19,14 @@ class DiseasesController < ApplicationController
       @disease_name = @diseases[0..4].collect(&:name).shuffle.first
       @disease_url = Disease.find_by(:name => @disease_name).try(:url)
 
+      respond_to do |format|
+        format.html { render action: "index" }
+        format.js
+      end
+
     end
 
-    respond_to do |format|
-      format.html { render action: "index" }
-      format.js
-    end
+
   end
 
 end
