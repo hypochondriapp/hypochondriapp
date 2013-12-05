@@ -33,6 +33,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Add capistrano for spike deploy
+gem 'capistrano', '~>2.0'
+
+gem 'rvm-capistrano'
+
 gem 'nokogiri'
 gem 'pry'
 gem 'sunspot_rails'
