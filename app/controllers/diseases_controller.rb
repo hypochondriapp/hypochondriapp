@@ -8,15 +8,20 @@ class DiseasesController < ApplicationController
         "\"+#{symptom.strip}\""
       end.join(" ")
 
-      @search = Disease.search do
-        fulltext quoted_search_terms do
-          highlight :page_content
-          minimum_match 1
+      @diseases = []
+      begin
+        @search = Disease.search do
+          fulltext quoted_search_terms do
+            highlight :page_content
+            minimum_match 1
+          end
         end
-      end
 
-      @diseases = @search.results
-      @diseases << Disease.first if @diseases.count == 0
+        @diseases = @search.results
+        @diseases << Disease.first if @diseases.count == 0
+      rescue
+        @diseases = Disease.all.sample(5)
+      end
       @disease_name = @diseases[0..4].collect(&:name).shuffle.first
       @disease_url = Disease.find_by(:name => @disease_name).try(:url)
 
