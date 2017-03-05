@@ -2,14 +2,13 @@
 
 Feeling sick? Enter your symptoms. Get back the worst disease possible.
 
-Note: This project is defunct and curently does not work. Please see https://github.com/emilyxxie/hypochondriapp if you were looking for the hyochondriapp.io source code.
+**Note**: This project is defunct and is not in working order. Please see the re-make here: https://github.com/emilyxxie/hypochondriapp if you were looking for the source code for the deployed hypochondriapp.io site.
 
 ## CREDITS
 
-Emily Xie: original concept, name, design, web scrapers, database work, backend models, UI implementation
-Greg Eng: backend models, UI implementation, database work, SOLR search integration
-David Bella: backend models, UI implementation, database work, SOLR search integration (as well as de-integration)
-Extra thanks to: Avi Flombaum and Jonathan Grover for help with deployment and front end
+- **Emily Xie**: idea & concept, name, design, web scrapers, backend models, UI implementation, database work
+- **Greg Eng**: backend models, UI implementation, database work, scrapers, SOLR search integration
+- **David Bella**: backend models, UI implementation, database work, SOLR search integration (as well as de-integration)
+- Extra thanks to: Avi Flombaum for help deploying and Jonathan Grover for lending us his frontend expertise
 
-![alt tag](screenshot1.jpg)
 ![alt tag](screenshot_2.jpg)
